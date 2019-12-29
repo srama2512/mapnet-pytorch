@@ -4,9 +4,7 @@ import copy
 import glob
 import time
 
-import cv2
 import pdb
-import gym
 import math
 import numpy as np
 import mapnet.algo as algo
@@ -34,7 +32,6 @@ from mapnet.eval_utils import evaluate_avd, evaluate_maze
 from mapnet.avd_data_loader import DataLoaderAVD
 from torch.utils.data.dataloader import DataLoader
 
-from gym.spaces import Discrete
 from tensorboardX import SummaryWriter
 from mapnet.resnet_parts import AVDResNet
 from mapnet.cnn_models import get_two_layers_cnn

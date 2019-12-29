@@ -4,7 +4,6 @@ import numpy as np
 import torch.nn as nn
 import torch.nn.functional as F
 import torchvision.models as tmodels
-from torch.nn.utils import spectral_norm
 
 def conv3x3(in_planes, out_planes, stride=1):
     """3x3 convolution with padding"""
