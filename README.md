@@ -27,7 +27,7 @@ export PYTHONPATH=$PYTHONPATH:$MAPNET_PATH
 cd $MAPNET_PATH
 mkdir -p trained_models/maze_models
 
-python train.py --lr 1e-3 --seed 1 --batch-size 100 --num-steps 5 \
+python train.py --lr 3e-3 --seed 1 --batch-size 100 --num-steps 5 \
                 --save-interval 1000 --eval-interval 1000 --num-updates 100000 \
                 --env-name maze --data-path <PATH TO mazes-10-10-100000.txt> \
                 --save-dir trained_models/maze_models --log-dir trained_models/maze_models/ \ 
