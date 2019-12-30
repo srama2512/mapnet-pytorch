@@ -33,6 +33,8 @@ python train.py --lr 3e-3 --seed 1 --batch-size 100 --num-steps 5 \
                 --save-dir trained_models/maze_models --log-dir trained_models/maze_models/ \ 
                 --map-size 15 --local-map-size 11 --map-scale 1.0 --log-interval 100
 ```
+![Maze training results](https://github.com/srama2512/mapnet-pytorch/blob/master/results/mapnet_maze_results.png)
+
 ## Training on Active Vision Dataset
 ```
 cd $MAPNET_PATH
@@ -44,3 +46,4 @@ python train.py --lr 1e-3 --seed 1 --batch-size 64 --num-steps 5 \
                 --save-dir trained_models/avd_models --log-dir trained_models/avd_models \
                 --map-size 31 --local-map-size 21 --map-scale 300.0 --log-interval 100
 ```
+![AVD training results](https://github.com/srama2512/mapnet-pytorch/blob/master/results/mapnet_avd_results.png)
