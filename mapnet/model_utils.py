@@ -160,7 +160,7 @@ def compute_spatial_locs(depth_inputs, local_shape, local_scale, camera_params):
 
     # 2D image coordinates
     x               = rearrange(torch.arange(0, imw), 'w -> () () () w')
-    y               = rearrange(torch.arange(0, imh), 'h -> () () h ()')
+    y               = rearrange(torch.arange(imh, 0, step=-1), 'h -> () () h ()')
     x, y            = x.float().to(device), y.float().to(device)
     xx              = (x - cx) / fx
     yy              = (y - cy) / fy
