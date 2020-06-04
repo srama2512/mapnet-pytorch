@@ -13,7 +13,7 @@ The following are the primary requirements:
 
 # Datasets
 - Maze dataset: https://github.com/jotaf98/mapnet/tree/master/data/maze
-- Active Vision Dataset (processed) - will be made available soon
+- [Active Vision Dataset (processed)](https://drive.google.com/file/d/145Qe2wHglKYB0burJchWcbruuBQWckrc/view?usp=sharing)
 
 # Setup
 Add the following to ~/.bashrc
